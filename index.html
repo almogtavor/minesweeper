@@ -1,0 +1,38 @@
+<html>
+  <head>
+	  	<link rel="icon" tpye="image/png" href="./bombs-and-flags-pictures/no-background-bomb.png"/>
+		<link rel="stylesheet" href="app.css">
+		<script type="text/javascript" src="app.js"></script>
+		<script type="text/javascript" src="./Logic/BlocksLogic.js"></script>
+		<script type="text/javascript" src="./View/BlockView.js"></script>
+		<script type="text/javascript" src="./View/BoardView.js"></script>
+		<script type="text/javascript" src="./Logic/BombsMap.js"></script>
+		<script type="text/javascript" src="./Logic/FlagsLogic.js"></script>
+		<script type="text/javascript" src="./Logic/Game.js"></script>
+		<script type="text/javascript" src="./Logic/TimerLogic.js"></script>
+		<script type="text/javascript" src="./View/TimerView.js"></script>
+		<script type="text/javascript" src="./configuration.js"></script>
+		<script type="text/javascript" src="./BlockDTO.js"></script>
+	</head>
+<body>
+	<div id="buttons">
+		<div id="flag-buttons">
+			<img src="time-pictures/time0.png" id="flag-left">
+			<img src="time-pictures/time0.png" id="flag-middle">
+			<img src="time-pictures/time0.png" id="flag-right">
+		</div>
+		
+		<img src="face-pictures/smile.png" id="face">
+		<div id="timer-buttons">
+		</div>
+	</div>
+	<div id="board-frame">
+	</div>
+	<div id="edit">
+		<p id="instructions">Select height, width and mines number.</p>
+		<input type="number" id="height" placeholder="height" value=9>
+		<input type="number" id="width" placeholder="width" value=9>
+		<input type="number" id="mines" placeholder="mines" value=10>
+	</div>
+</body>
+</html>
