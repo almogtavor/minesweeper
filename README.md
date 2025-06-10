@@ -1,6 +1,6 @@
 <img align="right" width="100" height="100" src="bombs-and-flags-pictures/no-background-bomb.png">
 
-# Minesweeper Web
+# Web Minesweeper
  Vanilla js Minesweeper web version. 1:1 re-implementation of Microsoft Windows's original game.
 
 ![](minesweeper.png)
